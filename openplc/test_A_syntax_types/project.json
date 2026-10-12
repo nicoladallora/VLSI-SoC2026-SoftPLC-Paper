@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "name": "open_plc_test_A",
+    "type": "plc-project"
+  },
+  "data": {
+    "dataTypes": [
+      {
+        "name": "TPOINT",
+        "derivation": "structure",
+        "variable": [
+          {
+            "name": "x",
+            "type": {
+              "definition": "base-type",
+              "value": "DINT"
+            },
+            "initialValue": {
+              "simpleValue": {
+                "value": ""
+              }
+            }
+          },
+          {
+            "name": "y",
+            "initialValue": {
+              "simpleValue": {
+                "value": ""
+              }
+            },
+            "type": {
+              "definition": "base-type",
+              "value": "DINT"
+            }
+          }
+        ]
+      },
+      {
+        "values": [
+          {
+            "description": "red"
+          },
+          {
+            "description": "green"
+          },
+          {
+            "description": "blue"
+          }
+        ],
+        "initialValue": "",
+        "name": "COLOR",
+        "derivation": "enumerated"
+      }
+    ],
+    "pous": [],
+    "configuration": {
+      "resource": {
+        "tasks": [
+          {
+            "name": "task0",
+            "triggering": "Cyclic",
+            "interval": "T#20ms",
+            "priority": 1
+          }
+        ],
+        "instances": [
+          {
+            "name": "instance0",
+            "program": "main",
+            "task": "task0"
+          }
+        ],
+        "globalVariables": []
+      }
+    },
+    "libraries": [],
+    "debugVariables": {
+      "pous": {
+        "main": [
+          "b1"
+        ]
+      }
+    }
+  }
+}

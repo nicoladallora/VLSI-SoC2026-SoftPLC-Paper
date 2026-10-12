@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Sustainable SoftPLCs at the Edge — source code"
+type: software
+license: MIT
+repository-code: "https://github.com/nicoladallora/VLSI-SoC2026-SoftPLC-Paper"
+authors:
+  - family-names: Noto
+    given-names: Gioacchino Ivan
+    affiliation: "Università degli Studi Guglielmo Marconi"
+  - family-names: "Dall'Ora"
+    given-names: Nicola
+    affiliation: "Università degli Studi Guglielmo Marconi"
+keywords:
+  - softPLC
+  - IEC 61131-3
+  - OpenPLC
+  - edge computing
+  - retrofitting
+  - sustainability
+preferred-citation:
+  type: conference-paper
+  title: "Sustainable SoftPLCs at the Edge: An Open-Source Path to Right-Sizing and Retrofitting Industrial Automation"
+  authors:
+    - family-names: Noto
+      given-names: Gioacchino Ivan
+    - family-names: "Dall'Ora"
+      given-names: Nicola
+  collection-title: "Proceedings of the IFIP/IEEE International Conference on Very Large Scale Integration (VLSI-SoC)"
+  conference:
+    name: "VLSI-SoC 2026"
+  year: 2026
